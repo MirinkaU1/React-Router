@@ -1,0 +1,85 @@
+.App {
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: 60px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 4.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.Modal-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form-navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.addButton {
+  text-align: center;
+}
+
+.form-addMovie {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.detailContainer{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: 5px;
+}
+
+.detailInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.detailLeft img{
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+.trailer {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .add-movie-aside {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
